@@ -1,0 +1,128 @@
+body{
+	margin: 0px;
+
+	padding: 0px;
+
+	
+
+}
+
+.lol{
+	background-image: url("black.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
+}
+.First{
+	background-image: url("white.jpg");
+	background-repeat: no-repeat;
+    padding: 50px 0;
+    transform: skew(0deg, 10deg) translateY(-120px);
+
+
+}
+.cross{
+	padding: 150px 200px;
+    transform: skew(0deg, -10deg)
+}
+.cross h1{
+	margin: 0;
+	padding: 20px 0;
+	font-size: 3em;
+	color: #fff;
+	/*text-align: center;*/
+}
+.cross p{
+	font-size: 1em;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.4em;
+	width: 100%;
+}
+.btn:hover{
+ width: 50%;
+}
+a{
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.Second{
+	padding: 0 200px 150px;
+	text-align: right;
+	color: #fff;
+}
+
+
+.Second h1{
+	margin: 0;
+	padding: 20px 0;
+	font-size: 3em;
+	color: #fff;
+
+}
+.Second p{
+	font-size: 1em;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.4em;
+	width: 100%;
+}
+a:hover{
+	text-decoration: none;
+}
+@media(max-width: 684px){
+	.cross{
+		padding: 130px 200px;
+	}
+.Second{
+padding: 0 150px 150px;
+}
+}
+
+
+@media(max-width: 618px){
+	.cross{
+		padding: 125px 130px;
+	}
+.Second{
+padding: 0 120px 140px;
+}
+}
+
+@media(max-width: 481px){
+	.cross{
+		padding: 100px 110px;
+	}
+.Second{
+padding: 0 100px 120px;
+}
+}
+
+@media(max-width: 429px){
+	.cross{
+		padding: 100px 100px;
+	}
+.Second{
+padding: 0 100px 100px;
+}
+}
+@media(max-width: 408px){
+	.cross{
+		padding: 70px 80px;
+	}
+.Second{
+padding: 0 80px 100px;
+}
+}
+
+@media(max-width: 355px){
+	.cross{
+		padding: 70px 60px;
+	}
+.Second{
+padding: 0 70px 70px;
+}
+}
